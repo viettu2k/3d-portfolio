@@ -23,7 +23,19 @@ const Navbar = () => {
             VietTu <span className='sm:block hidden'>| Developer</span>
           </p>
         </Link>
-        <p className='text-red-500'>asdsad</p>
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {navLinks.map((nav) => (
+            <li
+              className={`${
+                active === nav.title ? 'text-white' : 'text-secondary'
+              } hover:text-wh text-[18px] font-medium cursor-pointer`}
+            >
+              <a key={nav.id} href={`#${nav.id}`}>
+                {nav.title}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
