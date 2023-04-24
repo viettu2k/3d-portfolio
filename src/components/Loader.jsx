@@ -1,4 +1,5 @@
 import { Html, useProgress } from '@react-three/drei';
+import { memo } from 'react';
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
@@ -29,4 +30,4 @@ const CanvasLoader = () => {
   );
 };
 
-export default CanvasLoader;
+export default memo(CanvasLoader);

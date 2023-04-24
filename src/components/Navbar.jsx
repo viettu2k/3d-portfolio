@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState, memo } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
@@ -55,7 +55,6 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Devloper</span>
           </p>
         </Link>
-
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li key={nav.id} className={liClass(active, nav.title)}>
@@ -63,7 +62,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -71,7 +69,6 @@ const Navbar = () => {
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
-
           <div className={toggleClass(toggle)}>
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
@@ -94,4 +91,4 @@ const Navbar = () => {
   );
 };
 
-export default React.memo(Navbar);
+export default memo(Navbar);
