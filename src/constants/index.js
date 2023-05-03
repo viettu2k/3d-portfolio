@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  comfySloth,
   jobit,
   tripguide,
   threejs,
@@ -198,25 +198,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Comfy Sloth',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Online platform that offers a wide selection of furniture options to suit any style and budget, providing a convenient and efficient solution for furnishing your home.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'stripe',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'styled-components',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: comfySloth,
+    source_code_link: 'https://github.com/viettu2k/comfy-sloth',
+    demo_link: 'https://viettu2k-comfy-sloth-store.netlify.app/',
   },
   {
     name: 'Job IT',
