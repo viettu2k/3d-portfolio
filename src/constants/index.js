@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   comfySloth,
-  jobit,
+  githubSearchUsers,
   tripguide,
   threejs,
 } from '../assets';
@@ -220,25 +220,26 @@ const projects = [
     demo_link: 'https://viettu2k-comfy-sloth-store.netlify.app/',
   },
   {
-    name: 'Job IT',
+    name: 'GitHub Search Users',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      "The website allows users to search for GitHub users based on their username. Users can view the repositories and projects of the searched user. Additionally, the website provides users with relevant statistics such as the user's number of followers, repositories, and programming languages used.",
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'auth0',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'styled-components',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: githubSearchUsers,
+    source_code_link: 'https://github.com/viettu2k/github-search-users',
+    demo_link: 'https://viettu2k-github-search-users.netlify.app',
   },
   {
     name: 'Trip Guide',

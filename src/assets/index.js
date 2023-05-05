@@ -27,7 +27,7 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
 import comfySloth from './comfy-sloth.png';
-import jobit from './jobit.png';
+import githubSearchUsers from './github-search-users.png';
 import tripguide from './tripguide.png';
 
 export {
@@ -57,6 +57,6 @@ export {
   starbucks,
   tesla,
   comfySloth,
-  jobit,
+  githubSearchUsers,
   tripguide,
 };
