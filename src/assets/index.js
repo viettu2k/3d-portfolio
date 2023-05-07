@@ -28,7 +28,7 @@ import tesla from './company/tesla.png';
 
 import comfySloth from './comfy-sloth.png';
 import githubSearchUsers from './github-search-users.png';
-import tripguide from './tripguide.png';
+import gpt3 from './gpt3.png';
 
 export {
   logo,
@@ -58,5 +58,5 @@ export {
   tesla,
   comfySloth,
   githubSearchUsers,
-  tripguide,
+  gpt3,
 };

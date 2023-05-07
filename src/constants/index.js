@@ -21,7 +21,7 @@ import {
   shopify,
   comfySloth,
   githubSearchUsers,
-  tripguide,
+  gpt3,
   threejs,
 } from '../assets';
 
@@ -242,25 +242,22 @@ const projects = [
     demo_link: 'https://viettu2k-github-search-users.netlify.app',
   },
   {
-    name: 'Trip Guide',
+    name: 'GPT3',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      "A GPT3 landing page offers a concise and visually appealing overview of GPT-3's capabilities and features, along with clear instructions and get started.",
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
+        name: 'sass',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: gpt3,
+    source_code_link: 'https://github.com/viettu2k/gpt3',
+    demo_link: 'https://gpt3-viettu2k.netlify.app/',
   },
 ];
 
