@@ -29,6 +29,7 @@ import tesla from './company/tesla.png';
 import comfySloth from './comfy-sloth.png';
 import githubSearchUsers from './github-search-users.png';
 import gpt3 from './gpt3.png';
+import dalle from './dalle.png';
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   comfySloth,
   githubSearchUsers,
   gpt3,
+  dalle,
 };

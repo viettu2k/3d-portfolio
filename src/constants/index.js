@@ -22,6 +22,7 @@ import {
   comfySloth,
   githubSearchUsers,
   gpt3,
+  dalle,
   threejs,
 } from '../assets';
 
@@ -222,7 +223,7 @@ const projects = [
   {
     name: 'GitHub Search Users',
     description:
-      "The website allows users to search for GitHub users based on their username. Users can view the repositories and projects of the searched user. Additionally, the website provides users with relevant statistics such as the user's number of followers, repositories, and programming languages used.",
+      'The website allows users to search for GitHub users based on their username. Users can view the repositories and projects of the searched user.',
     tags: [
       {
         name: 'react',
@@ -258,6 +259,28 @@ const projects = [
     image: gpt3,
     source_code_link: 'https://github.com/viettu2k/gpt3',
     demo_link: 'https://gpt3-viettu2k.netlify.app/',
+  },
+  {
+    name: 'Dall-E Clone',
+    description:
+      'The DALL-E website showcases the capabilities of this model by allowing users to input descriptions of images and generating unique visual outputs based on the given prompts.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'open-ai',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: dalle,
+    source_code_link: 'https://github.com/viettu2k/dalle-ui',
+    demo_link: 'https://dalle-ui-viettu2k.onrender.com/',
   },
 ];
 
