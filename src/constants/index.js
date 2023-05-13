@@ -23,6 +23,7 @@ import {
   githubSearchUsers,
   gpt3,
   dalle,
+  fitnessExercises,
   threejs,
 } from '../assets';
 
@@ -281,6 +282,28 @@ const projects = [
     image: dalle,
     source_code_link: 'https://github.com/viettu2k/dalle-ui',
     demo_link: 'https://dalle-ui-viettu2k.onrender.com/',
+  },
+  {
+    name: 'Fitness Exercises',
+    description:
+      'This fitness exercises website is a comprehensive online resource for individuals looking to improve their physical health and wellness.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'MUI',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'rapid-api',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: fitnessExercises,
+    source_code_link: 'https://github.com/viettu2k/fitness-exercises',
+    demo_link: 'https://fitness-exercises-v2v7.onrender.com/',
   },
 ];
 
