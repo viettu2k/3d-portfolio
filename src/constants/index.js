@@ -24,6 +24,7 @@ import {
   gpt3,
   dalle,
   fitnessExercises,
+  dashboard,
   threejs,
 } from '../assets';
 
@@ -304,6 +305,28 @@ const projects = [
     image: fitnessExercises,
     source_code_link: 'https://github.com/viettu2k/fitness-exercises',
     demo_link: 'https://fitness-exercises-v2v7.onrender.com/',
+  },
+  {
+    name: 'Dashboard',
+    description:
+      'A dashboard website is a centralized platform that provides users with a concise and visually appealing overview of important information, data, and metrics.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: '@syncfusion',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: dashboard,
+    source_code_link: 'https://github.com/viettu2k/dashboard',
+    demo_link: 'https://dashboard-viettu2k.netlify.app/',
   },
 ];
 

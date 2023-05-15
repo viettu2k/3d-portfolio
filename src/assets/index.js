@@ -31,6 +31,7 @@ import githubSearchUsers from './github-search-users.png';
 import gpt3 from './gpt3.png';
 import dalle from './dalle.png';
 import fitnessExercises from './fitness-exercises.png';
+import dashboard from './dashboard.png';
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   gpt3,
   dalle,
   fitnessExercises,
+  dashboard,
 };
