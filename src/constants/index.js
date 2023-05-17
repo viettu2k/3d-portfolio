@@ -26,6 +26,7 @@ import {
   fitnessExercises,
   dashboard,
   threejs,
+  travelFriends,
 } from '../assets';
 
 export const navLinks = [
@@ -327,6 +328,28 @@ const projects = [
     image: dashboard,
     source_code_link: 'https://github.com/viettu2k/dashboard',
     demo_link: 'https://dashboard-viettu2k.netlify.app/',
+  },
+  {
+    name: 'Travel Friends',
+    description:
+      'Travel Friends is an innovative online platform designed to revolutionize the way people plan and organize their travel experiences.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'context-api',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: travelFriends,
+    source_code_link: 'https://github.com/viettu2k/travel-website',
+    demo_link: 'https://travel-friends.netlify.app/',
   },
 ];
 

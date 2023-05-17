@@ -32,6 +32,7 @@ import gpt3 from './gpt3.png';
 import dalle from './dalle.png';
 import fitnessExercises from './fitness-exercises.png';
 import dashboard from './dashboard.png';
+import travelFriends from './travel-friends.png';
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   dalle,
   fitnessExercises,
   dashboard,
+  travelFriends,
 };
